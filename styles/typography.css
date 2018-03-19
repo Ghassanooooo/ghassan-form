@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Merriwether');
+/**
+ * TYPOGRAPHY
+ */
+
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+}
+
+h1, h2 {
+  font-family: 'Merriwether', Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+}
+
+header, footer {
+  color: #FFF;
+}
+
+header h1 {
+  font-size: 6rem;
+}
+
+/* Site specific */
+
+main {
+  text-align: justify;
+}
+
+.site-navigation {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+}
+
+.site-navigation a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.site-navigation li:hover, .site-navigation li.select {
+  background: #90EE90;
+}
+
+.site-navigation .link a:active {
+  text-decoration: underline;
+}
